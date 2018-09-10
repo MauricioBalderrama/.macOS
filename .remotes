@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+git remote rm origin
+git remote rm upstream
+git remote add origin git@github.com:MauricioBalderrama/.macOS.git
+git remote add upstream https://github.com/mathiasbynens/dotfiles.git
