@@ -908,4 +908,5 @@ defaults write com.twitter.twitter-mac HideInBackground -bool true
 # Bypass the annoyingly slow t.co URL shortener
 defaults write com.tapbots.TweetbotMac OpenURLsDirectly -bool true
 
+# Suggest restart
 echo "Done. Note that some of these changes require a logout/restart to take effect."
