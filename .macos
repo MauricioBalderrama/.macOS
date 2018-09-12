@@ -915,7 +915,6 @@ for app in
 	# "Calendar" \
 	# "cfprefsd" \
 	# "Contacts" \
-	"Dock" \
 	# "Finder" \
 	# "Google Chrome Canary" \
 	# "Google Chrome" \
@@ -931,7 +930,8 @@ for app in
 	# "Transmission" \
 	# "Tweetbot" \
 	# "Twitter" \
-	# "iCal"; 
+	# "iCal" \ 
+	"Dock";
 do
 	killall "${app}" &> /dev/null
 done
