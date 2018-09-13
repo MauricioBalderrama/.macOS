@@ -377,7 +377,9 @@ do
     fi
 done
 
-# Kill Dock
+# Remove icons cache & kill Dock
+sudo find /private/var/folders/ -name com.apple.iconservices -exec rm -rf {} \;
+sudo rm -rf /Library/Caches/com.apple.iconservices.store
 killall Dock
 
 # Show only open applications in the Dock
